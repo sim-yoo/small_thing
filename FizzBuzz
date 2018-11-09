@@ -1,0 +1,12 @@
+#写一个程序打印从1到100的数字。但是如果数字是3的倍数的话则打印‘Fizz’，如果是5的倍数的话
+#则打印‘Buzz’。如果同时是3和5的倍数则打印‘FizzBuzz’。
+for i in range(1,101):
+    if i%3 == 0:
+        if i%5 == 0:
+            print('FizzBuzz')
+        else:
+            print('Fizz')
+    elif i%5 == 0:
+        print('Buzz')
+    else:
+        print(i)
